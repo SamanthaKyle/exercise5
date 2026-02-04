@@ -9,7 +9,10 @@ const map = new mapboxgl.Map({
 })
 
 map.on('load', () => {
+    // this is the eventListener
     // Add a data source containing GeoJSON data
+
+    // must add data sources here
     map.addSource('uoft-data', {
         type: 'geojson',
         data: {
@@ -44,7 +47,10 @@ map.on('load', () => {
 
     map.addSource('buildings-data', {
         type: 'geojson',
-        data: './wk5-data/buildings.geojson' // Your URL to your buildings.geojson file
+        // data: './wk5-data/buildings.geojson' // Your URL to your buildings.geojson file
+        // data: 'https://SamanthaKyle.github.io/exercise5/wk5-data/buildings.geojson'
+        data: 'https://raw.githubusercontent.com/SamanthaKyle/exercise5/main/wk5-data/buildings.geojson'
+        //data: 'https://github.com/SamanthaKyle/exercise5/blob/6b5994d932f05a96f3fc345d500828a75371924e/wk5-data/buildings.geojson'
     });
     map.addLayer({
         'id': 'buildings-point',
