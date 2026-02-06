@@ -1,0 +1,83 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "story": "had my first kiss here :)"
+            },
+            "geometry": {
+                "coordinates": [
+                    -79.29544950231555,
+                    43.6665063925181
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "story": "Red Cardinals love it here!"
+            },
+            "geometry": {
+                "coordinates": [
+                    -79.29376960288484,
+                    43.67908229503047
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "story": "hidden gem for thrifting"
+            },
+            "geometry": {
+                "coordinates": [
+                    -79.30443696426813,
+                    43.669362021919454
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "story": "BOILER ROOM!!!!!"
+            },
+            "geometry": {
+                "coordinates": [
+                    -79.31128255444673,
+                    43.66501776587799
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "story": "The best place in the whole city for watching the sunset."
+            },
+            "geometry": {
+                "coordinates": [
+                    -79.28732961641894,
+                    43.66947770995037
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "story": "Good to visit for Family Day!"
+            },
+            "geometry": {
+                "coordinates": [
+                    -79.2981517126696,
+                    43.67421445111728
+                ],
+                "type": "Point"
+            }
+        }
+    ]
+}
